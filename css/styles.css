@@ -1,0 +1,146 @@
+body {
+  color: white;
+}
+
+#navbar-space {
+  height: 30vh;
+  width: 100%;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+.menu-column {
+  position: absolute;
+  right: 0;
+  text-align: right;
+  height: 15%;
+  width: 50%;
+}
+
+img {
+  display: inline-block;
+}
+
+p{
+  font-size: 1rem;
+  font-family: sans-serif;
+  color: #D0D6F9;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+hr {
+  width: 80%;
+  margin-left: 20%;
+  margin-right: 80%;
+  border-color: #D0D6F9;
+}
+
+h1{
+  font-size: 9rem;
+  margin: 0;
+  letter-spacing: 5px;
+  font-weight: normal;
+}
+
+h2{
+  font-size: 1.8rem;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 4px;
+  color: #D0D6F9;
+  font-weight: normal;
+  margin: 10px 10px;
+}
+
+
+
+.logo-column {
+  position: absolute;
+  left: 10%;
+  height: 15%;
+  width: 42%;
+}
+
+.top-vertical-align {
+  margin-bottom: 0;
+  margin-top: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+ul {
+  list-style: none;
+  right: 0%;
+  text-align: center;
+  background-color: rgba(208, 214, 249, 0.2);
+  padding: 5% 0;
+  width: 100%;
+}
+
+ul li {
+  display: inline;
+  padding: 0 1%;
+}
+
+#bottom {
+  height: 70vh;
+}
+
+.one-column {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  display: inline-block;
+}
+
+.half-column {
+  width: 50%;
+  position: relative;
+  height: 100%;
+  display: inline-block;
+}
+
+#explore {
+  float: right;
+  font-family: 'Bellefair', serif;
+  font-size: 2rem;
+}
+
+.round-circle {
+  border-radius: 100%;
+  background: white;
+  height: 300px;
+  width: 300px;
+  color: black;
+}
+
+.middle-align {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+/*media queries*/
+@media (min-width: 769px) {
+  body {
+    background-image: url("../assets/home/background-home-desktop.jpg");
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url("../assets/home/background-home-tablet.jpg");
+  }
+}
+
+@media (max-width: 360px) {
+  body {
+    background-image: url("../assets/home/background-home-mobile.jpg");
+  }
+}
